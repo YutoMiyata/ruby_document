@@ -1,0 +1,33 @@
+配列
+
+書き方は2通り存在する
+
+❶[]で記述する
+
+❶-1 team_baseball_member = ["suzuki","takahashi","ohtani"]
+
+❶-2 出力
+
+    p team_baseball_member[0]
+    p team_baseball_member[1]
+    p team_baseball_member[2]
+
+
+
+
+❷Array.new()メソッドで記述する
+
+❷-1 配列に格納する変数を準備
+    team_swimming_club = Array.new(3) //3人のメンバーが入る箱を作成
+
+
+❷-2 配列に値を格納
+    team_swimming_club[0] = "田中"
+    team_swimming_club[1] = "鈴木"
+    team_swimming_club[2] = "佐藤"
+
+❷-3 出力
+    p team_swimming_club[0] 
+    p team_swimming_club[1] 
+    p team_swimming_club[2]
+

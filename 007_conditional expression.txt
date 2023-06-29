@@ -1,0 +1,40 @@
+条件式(if文など)
+
+@@@  形式  @@@
+
+if 条件式A　then
+    条件Aを満たした時の処理内容
+end
+
+
+*thenの省略は可能
+
+@@@  形式(省略形)  @@@
+
+if 条件式A　then
+    条件Aを満たした時の処理内容  
+end
+
+
+
+ex.
+age = 18
+
+if age >= 12
+    p "I am genesux"
+end
+
+
+条件式(elsif(else if) , else)
+
+ex.
+
+age = 18
+
+if age >= 12
+    p "私は12歳以上です"
+elsif age >= 10
+    p "私は10歳以上です。"
+else 
+    p "私は10歳未満です"
+end

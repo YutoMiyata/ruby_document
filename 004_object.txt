@@ -1,0 +1,10 @@
+オブジェクト
+
+rubyは全てがオブジェクト
+
+
+puts 1　の1はintegerオブジェクト
+puts "hello" のhelloはStringオブジェクト
+
+
+puts true　のtrueはTrueオブジェクト

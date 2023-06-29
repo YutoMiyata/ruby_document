@@ -1,0 +1,9 @@
+変数(variable)
+
+num = 1
+
+goodmorning_in_ja = "おはようございます"
+
+puts num
+
+puts goodmorning_in_ja
